@@ -1,4 +1,4 @@
-# Ignore all npyfiles
+# Ignore all npyfiles and data
 *.npy
 *.csv
 *.pickle
