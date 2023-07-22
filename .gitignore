@@ -1,4 +1,4 @@
-# Ignore all npyfiles and data added readme
+# Ignore all npyfiles and data added readme1
 *.npy
 *.csv
 *.pickle
