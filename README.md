@@ -9,7 +9,7 @@ Please follow the following steps to reproduce the results in the manuscript
 
 3. Run the script [Reduce_Dimensions_Higher_PCs.ipynb](https://github.com/Ved-Piyush/MEnKF_Ensembler_DualGCN_DeepCDR/blob/main/Data_Preprocessing_Scripts/Reduce_Dimensions_Higher_PCs.ipynb) which reduces the dimensionality of the embeddings by using Principal Component Analysis. The Principal Component Embeddings will be placed in the [Data](https://github.com/Ved-Piyush/MEnKF_Ensembler_DualGCN_DeepCDR/tree/main/Data) folder. These Principal Component Embeddings would be used as features to the MEnKF method.
 
-4. The MEnKF method is evaluated using embeddings from individual DualGCN, DeepCDR, and combined DeepCDR +DualGCN models, respectively. The MEnKF algorithm is run till the training RMSE does not improve for 10 successive updates. The scripts to run MEnKF with the various embedding configurations can be found below:
+4. The MEnKF method is evaluated using PC transformed embeddings from 3. for individual DualGCN, DeepCDR, and combined DeepCDR +DualGCN models, respectively. The MEnKF algorithm is run till the training RMSE does not improve for 10 successive updates. The scripts to run MEnKF with the various embedding configurations can be found below:
    
    a. DeepCDR drug and multi-omics embeddings - [MEnKF_DeepCDR_Sequential_Injection_Plots_All_Data.ipynb](https://github.com/Ved-Piyush/MEnKF_Ensembler_DualGCN_DeepCDR/blob/main/MEnKF_Scripts/MEnKF_DeepCDR_Sequential_Injection_Plots_All_Data.ipynb) 
 
