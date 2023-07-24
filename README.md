@@ -11,10 +11,12 @@ Please follow the following steps to reproduce the results in the manuscript
 
 4. The MEnKF method is evaluated using embeddings from individual DualGCN, DeepCDR, and combined DeepCDR +DualGCN models, respectively. The MEnKF algorithm is run till the training RMSE does not improve for 10 successive updates. The scripts to run MEnKF with the various embedding configurations can be found below:
    a. DeepCDR drug and multi-omics embeddings - [MEnKF_DeepCDR_Sequential_Injection_Plots_All_Data.ipynb
-](https://github.com/Ved-Piyush/MEnKF_Ensembler_DualGCN_DeepCDR/blob/main/MEnKF_Scripts/MEnKF_DeepCDR_Sequential_Injection_Plots_All_Data.ipynb)
+](https://github.com/Ved-Piyush/MEnKF_Ensembler_DualGCN_DeepCDR/blob/main/MEnKF_Scripts/MEnKF_DeepCDR_Sequential_Injection_Plots_All_Data.ipynb) \\
+
    b. DualGCN drug and multi-omics embeddings - [MEnKF_DualGCN_Sequential_Injection_Plots_All_Data.ipynb
-](https://github.com/Ved-Piyush/MEnKF_Ensembler_DualGCN_DeepCDR/blob/main/MEnKF_Scripts/MEnKF_DualGCN_Sequential_Injection_Plots_All_Data.ipynb)
-   c. Combined DualGCN and DeepCDR drug and multi-omic embeddings - [MEnKF_DualGCN_DeepCDR_Sequential_Injection_Plots_All_Train.ipynb](https://github.com/Ved-Piyush/MEnKF_Ensembler_DualGCN_DeepCDR/blob/main/MEnKF_Scripts/MEnKF_DualGCN_DeepCDR_Sequential_Injection_Plots_All_Train.ipynb)
+](https://github.com/Ved-Piyush/MEnKF_Ensembler_DualGCN_DeepCDR/blob/main/MEnKF_Scripts/MEnKF_DualGCN_Sequential_Injection_Plots_All_Data.ipynb) \\ 
+
+   c. Combined DualGCN and DeepCDR drug and multi-omic embeddings - [MEnKF_DualGCN_DeepCDR_Sequential_Injection_Plots_All_Train.ipynb](https://github.com/Ved-Piyush/MEnKF_Ensembler_DualGCN_DeepCDR/blob/main/MEnKF_Scripts/MEnKF_DualGCN_DeepCDR_Sequential_Injection_Plots_All_Train.ipynb) \\ 
 
 5. The script for making the plots in the paper is at [Make_Plots_All_Train.ipynb
 ](https://github.com/Ved-Piyush/MEnKF_Ensembler_DualGCN_DeepCDR/blob/main/MEnKF_Scripts/Make_Plots_All_Train.ipynb)
