@@ -18,3 +18,6 @@ Please follow the following steps to reproduce the results in the manuscript
    c. Combined DualGCN and DeepCDR drug and multi-omic embeddings - [MEnKF_DualGCN_DeepCDR_Sequential_Injection_Plots_All_Train.ipynb](https://github.com/Ved-Piyush/MEnKF_Ensembler_DualGCN_DeepCDR/blob/main/MEnKF_Scripts/MEnKF_DualGCN_DeepCDR_Sequential_Injection_Plots_All_Train.ipynb) . The final scores reported in the manuscript are calculated in the [Make_Plots_All_Train.ipynb](https://github.com/Ved-Piyush/MEnKF_Ensembler_DualGCN_DeepCDR/blob/main/MEnKF_Scripts/Make_Plots_All_Train.ipynb) script. 
 
 5. The script for making the plots in the paper is at [Make_Plots_All_Train.ipynb](https://github.com/Ved-Piyush/MEnKF_Ensembler_DualGCN_DeepCDR/blob/main/MEnKF_Scripts/Make_Plots_All_Train.ipynb)
+
+6. The code to train the joint learner and get the coverages, widths, and Pearson correlation is at [Joint Learner](https://github.com/Ved-Piyush/DeepCDR_SimpleCDR/blob/main/SimplerDeepCDR/SimplerCDRGCN_Exact_Network_more_dropout_active_both.ipynb)
+   
